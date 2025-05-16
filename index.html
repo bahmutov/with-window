@@ -1,0 +1,16 @@
+<body>
+  <h1>Hello World</h1>
+  <script>
+    const topWindowFake = {
+      window: {
+        location: {
+          href: 'foo.com'
+        }
+      }
+    }
+    with (topWindowFake) {
+      console.log("Hello from the window object");
+      window.location.href = "https://acme.com";
+    }
+  </script>
+</body>
