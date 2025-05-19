@@ -4,5 +4,8 @@
 
 it('sets the location HREF', () => {
   cy.visit('index.html')
-  cy.contains('ACME Laboratories')
+  cy.contains('h1', 'Hello World')
+  // confirm but do not allow the application
+  // to navigate away to the new URL
+  // Tip: app sets it using "location.href = ..." command
 })
