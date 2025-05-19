@@ -9,8 +9,11 @@
       }
     }
     with (topWindowFake) {
-      console.log("Hello from the window object");
-      window.location.href = "https://acme.com";
+      setTimeout(() => {
+        console.log("changing window location to acme.com");
+        location.href = "https://acme.com";
+
+      }, 1000)
     }
   </script>
 </body>
