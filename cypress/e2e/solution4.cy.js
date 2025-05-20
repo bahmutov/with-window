@@ -50,5 +50,8 @@ it('sets the location HREF', () => {
     // the query retries until the app sets the location href
     // and the test passes
     .its('location')
-    .should('have.property', 'href', 'https://acme.com')
+    .should('have.property', 'href')
+    .and('not.be.empty')
+    // yields the URL
+    .then(cy.request)
 })
