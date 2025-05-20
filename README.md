@@ -6,4 +6,5 @@ Allows testing HREF assignments like `location.href = 'https://acme.com'`
 
 ![Passing test](./images/test.png)
 
-Read the blog post [Mock The Location Href Property](https://glebbahmutov.com/blog/mock-location-href/)
+- 📝 Read the blog post [Mock The Location Href Property](https://glebbahmutov.com/blog/mock-location-href/)
+- 📺 Watch the video [Mock The Location Href Property](https://youtu.be/BH1wa_TviDs)
